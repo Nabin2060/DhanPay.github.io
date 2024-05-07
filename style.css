@@ -1,0 +1,545 @@
+ Resetting default margin and padding
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #f5f7fd;
+
+}
+
+/* Styles for the header */
+
+.All{
+    /* position: relative; */
+    position: fixed;
+    width: 100%;
+    /* margin-bottom: 12px; */
+}
+.search-select
+{
+    height: 30px;
+    width: 45px;
+    color: #fff;
+    background-color: green;
+    margin-left: 310px;
+    /* position: fixed; */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    /* position: fixed; */
+    
+}
+
+/* Styles for the search input */
+.search-input {
+    padding: 8px;
+    
+    margin-left: 1px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 400px;
+    /* position: fixed; */
+}
+
+/* Styles for the search button */
+.search-button {
+    padding: 8px 15px;
+    /* margin-right: 50px; */
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    /* position: fixed; */
+}
+
+/* Styles for the login and register buttons */
+.login-register {
+    display: flex;
+    align-items: center;
+    margin-right: 180px;
+}
+.login-register:hover{
+    color: purple;
+}
+
+.login-register button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(26, 183, 26);
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.login-register button:hover{
+    color: purple;
+}
+
+ /* Navbar styles */
+ .navbar {
+    width: 100%;
+    height: 75px;
+        background-color: green;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 4px 70px;
+        /* font-size: 40px; */
+        margin-top: 50px;
+    position: fixed;
+    /* position: relative; */
+
+        
+    }
+
+    .navbar-logo {
+       max-width: 100px;
+       margin-bottom: 30px;
+
+    }
+   
+
+    .navbar-menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .navbar-menu li {
+        margin-right: 20px;
+    
+
+    }
+
+    .navbar-menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 7px;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        /* margin-bottom: 300px; */
+        transition: all 0.3s ease;
+   
+        
+    }
+
+    .navbar-menu li a:hover {
+        background-color: white;
+    }
+
+    /* Responsive styles */
+    @media only screen and (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .navbar-menu {
+            margin-top: 10px;
+            justify-content: flex-start;
+        }
+
+        .navbar-menu li {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+
+    /* hero-section */
+    .hero{
+        /* width: 300px;
+        height: 30px;
+        background-color: red; */
+        display: flex;
+        /* margin-top: 30px; */
+        /* background-color: red; */
+    }
+    .img1{
+        background-image: url("hero1.jpg");
+        height: 85vh;
+        width: 900px;
+        margin-top: 150px;
+
+        /* background-size: contain; */
+    
+
+    }
+    .img2{
+        background-image: url("hero2.jpg");
+        height: 600px;
+        width: 1000px;
+        margin-top: 150px;
+
+    }
+
+    /* ++++++++++ */
+    .first{
+        margin-top: 5px;
+        width: 100%;
+        height: 200px;
+        /* background-color: red; */
+        /* border: 3px solid ; */
+        background-color: rgba(229, 224, 224, 0.878);
+        display: flex;
+
+    }
+    .sevices h3{
+        margin-left: 240px;
+        /* margin-top:0px; */
+        padding-top: 50px;
+        color: black;
+    }
+    #one{
+        height: 170px;
+        width: 150px;
+        background-color: #ccc;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 250px;
+        flex-wrap: wrap;
+        
+    
+    
+    }
+    #one p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+    }
+    #one button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+
+    }
+    #two{
+        height: 170px;
+        width: 150px;
+        background-color: #ccc;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 17px;
+        flex-wrap: wrap;
+    
+    
+    }
+    #two p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+    }
+    #two button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+
+    }
+    #three{
+        height: 170px;
+        width: 150px;
+        background-color: #ccc;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 19px;
+        flex-wrap: wrap;
+    
+    
+    }
+    #three p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+    }
+    #three button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+
+    }
+    #four{
+        height: 170px;
+        width: 150px;
+        background-color: #ccc;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 19px;
+        flex-wrap: wrap;
+    
+    
+    }
+    #four p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+    }
+    #four button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+
+    }
+    #five{
+        height: 170px;
+        width: 150px;
+        background-color: #ccc;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 19px;
+        flex-wrap: wrap;
+    
+    
+    }
+    #five p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+    }
+    #five button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+
+    }
+    #six{
+        height: 170px;
+        width: 150px;
+        background-color: #ccc;
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 19px;
+        flex-wrap: wrap;
+    
+    
+    }
+    #six p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+    }
+    #six button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    .first button:hover{
+        background-color: green;
+    }
+    /* +++++++++++++++++++ */
+    .second{
+        margin-top: 5px;
+        width: 100%;
+        height: 200px;
+        /* background-color: red; */
+        /* border: 3px solid ; */
+        background-color: rgba(229, 224, 224, 0.878);
+        display: flex;
+
+    }
+    .second p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+        
+
+    }
+    .second button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    .second button:hover{
+        background-color: green;
+    }
+    /* ++++++++++++++++++++++++++ */
+    .third{
+        margin-top: 5px;
+        width: 100%;
+        height: 200px;
+        /* background-color: red; */
+        /* border: 3px solid ; */
+        background-color: rgba(229, 224, 224, 0.878);
+        display: flex;
+
+    }
+    .third p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+        
+
+    }
+    .third button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    .third button:hover{
+        background-color: green;
+    }
+     /* ++++++++++++++++++++++++++ */
+     .four{
+        margin-top: 5px;
+        width: 100%;
+        height: 200px;
+        /* background-color: red; */
+        /* border: 3px solid ; */
+        background-color: rgba(229, 224, 224, 0.878);
+        display: flex;
+
+    }
+    .four p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+        
+
+    }
+    .four button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    .four button:hover{
+        background-color: green;
+    }
+    /* ++++++++++++++++++++++++++ */
+    .five{
+        margin-top: 5px;
+        width: 100%;
+        height: 200px;
+        /* background-color: red; */
+        /* border: 3px solid ; */
+        background-color: rgba(229, 224, 224, 0.878);
+        display: flex;
+
+    }
+    .five p{
+        padding: 8px;
+        margin-top: 33px;
+        margin-left: 6px;
+        
+
+    }
+    .five button{
+        margin-left: 28px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    .five button:hover{
+        background-color: green;
+    }
+    
+
+
+/* fooo  */
+.footer1 {
+margin-top: 900px;
+height: 190px;
+width: 100%;
+background: #21112d;
+padding: 50px 0 10px;
+}
+
+/* foo  */
+
+footer{
+margin-top: 90px;
+}
+.foot-panel{
+background-color: #37475a;
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+font-size: 0.85rem;
+}
+.foot-panel2{
+background-color:#222f3d ;
+color: white;
+height: 300px;
+display: flex;
+justify-content: space-evenly;
+text-decoration: none;
+}
+ul{
+margin: 20px;
+}
+ul a{
+display: block;
+font-size: 0.85rem;
+margin-top: 10px;
+color: #dddddd;
+text-decoration: none;
+
+}
+ul a:hover{
+    color: green;
+}
+
+.foot-panel3{
+background-color: #222f3d;
+color: white;
+border-top: 0.5px solid white;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo{
+background-image: url(Amazon-logo.png);
+background-size: cover;
+height: 50px;
+width: 100px;
+
+
+}
+.foot-panel4{
+background-color: #0f1111;
+color: white;
+height: 100px;
+font-size: 0.8rem;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+}
+.pages{
+/* font-size: 0.7rem;*/
+text-align: center; 
+padding-top: 25px;
+
+}
+.copyright{
+/* font-size: 0.5rem;*/
+text-align: center; 
+   padding-top: 3px;
+   padding-bottom: 15px;
+
+}
